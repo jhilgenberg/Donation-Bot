@@ -1,7 +1,7 @@
-    var SteamUser = require('./node_modules/steam-user');
-    var SteamTotp = require('./node_modules/steam-totp');
-    var steamCommunity = require('./node_modules/steamcommunity');
-    var TradeOfferManager = require('./node_modules/steam-tradeoffer-manager');
+    var SteamUser = require('steam-user');
+    var SteamTotp = require('steam-totp');
+    var steamCommunity = require('steamcommunity');
+    var TradeOfferManager = require('steam-tradeoffer-manager');
 
 
 
