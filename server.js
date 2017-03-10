@@ -30,7 +30,7 @@
     client.on('steamGuard', function(domain, callback, lastCodeWrong) {
         console.log("Needing steamguard code processing...");
         setTimeout(function() {
-            var code = SteamTotp.generateAuthCode(shared_secret);
+            var code = SteamTotp.generateAuthCode("SHARED SECRET");
             callback(code);
         }, 30 * 1000);
     });
