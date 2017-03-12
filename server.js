@@ -1,3 +1,4 @@
+    var fs = require('fs');
     var SteamUser = require('steam-user');
     var SteamTotp = require('steam-totp');
     var steamCommunity = require('steamcommunity');
